@@ -59,5 +59,5 @@ start_time = time.time()
 solution, cost = simulated_annealing_latin_square(n)
 print("--- %s' seconds ---" % (time.time() - start_time))
 # print(f"Solution (Cost: {cost}):")
-# for row in solution:
-#     print(row)
+for row in solution:
+    print(row)
